@@ -23,11 +23,9 @@ const mensagem = ref('');
 
 const nomeValido = computed(() => /^[A-Za-zÀ-ú\s]{1,255}$/.test(nome.value));
 const emailValido = computed(() => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value));
-const mensagemValida = computed(() => mensagem.value.length <= 300);
 
 const nomeErro = computed(() => nome.value && !nomeValido.value ? "Nome inválido (somente letras, max 255)" : '');
 const emailErro = computed(() => email.value && !emailValido.value ? "Email inválido" : '');
-const mensagemErro = computed(() => mensagem.value.length === 300 ? "Máximo de 300 caracteres atingido" : '');
 </script>
 
 <template>
