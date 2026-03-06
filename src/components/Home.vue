@@ -1,9 +1,5 @@
 <script setup lang="ts">
 import ButtonPrimary from './buttons/ButtonPrimary.vue';
-
-
-
-
 </script>
 
 <template>
@@ -21,7 +17,7 @@ import ButtonPrimary from './buttons/ButtonPrimary.vue';
 
 			<div class="abaixo">
 				<p data-aos="fade-up" data-aos-delay="600">Condomínio com lotes amplos de 500, 600 e 700 M²</p>
-				<ButtonPrimary label="Saiba Mais"
+				<ButtonPrimary data-aos="fade-up" data-aos-delay="800" label="Saiba Mais"
 					href="https://wa.me/5511963949077?text=Tenho interesse no Canary Wharf" target="_blank" />
 			</div>
 
