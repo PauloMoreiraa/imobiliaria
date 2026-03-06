@@ -33,14 +33,15 @@ import Map from './Lotes/Map.vue';
   width: 100%;
   max-width: 900px;
   display: flex;
+  height: auto;
   flex-direction: column;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
 }
 
 .titulo-sessao {
   text-align: left;
   width: 100%;
-  padding-top: 10vh;
 }
 
 .titulo {
@@ -56,13 +57,12 @@ import Map from './Lotes/Map.vue';
   font-family: "Lexend Zetta", sans-serif;
   color: #fff;
   font-size: 28px;
-  margin-top: 4px;
   text-transform: uppercase;
 }
 
 .mapa{
 	width: 100%;
-	height: 100%;
+	
 	padding-top: 5vh;
 }
 

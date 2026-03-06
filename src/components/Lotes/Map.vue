@@ -93,7 +93,6 @@ const statusAmigavel = (status: string) => {
 <style scoped>
 .map-wrapper {
 	max-width: 900px;
-	margin: auto;
 	display: flex;
 	flex-direction: column;
 }
@@ -194,8 +193,8 @@ const statusAmigavel = (status: string) => {
 
 .popup {
 	position: absolute;
-	bottom: -100px;
-	left: 70%;
+	bottom: 0px;
+	left: 50%;
 	transform: translateX(-50%);
 	width: 400px;
 	padding: 15px 20px 15px 15px;
@@ -288,9 +287,8 @@ const statusAmigavel = (status: string) => {
 
 	.popup {
 		width: 90%;
-		bottom: -250px;
-		  left: 50%;
-
+		bottom: 0px;
+		left: 50%;
 	}
 
 	.popup-content {
@@ -302,7 +300,11 @@ const statusAmigavel = (status: string) => {
 		margin-left: 0;
 		margin-top: 10px;
 	}
-}
 
-@media(max-width:768px) {}
+	.ponto{
+		width: 25px;
+		height: 25px;
+		font-size: 0.6rem;
+	}
+}
 </style>

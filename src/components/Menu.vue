@@ -77,7 +77,7 @@ const go = (index:number)=>{
   z-index:999;
   background:#211f2c;
   height:100vh;
-  width:3vw!important;
+  width:60px;
 	font-family:"Hubballi",sans-serif;
   margin-top: -1px;
   border-right: 1px solid #6c7a894b;
@@ -149,10 +149,13 @@ const go = (index:number)=>{
   bottom:0;
   left:0;
   width:100%;
-  height:70px;
+  height:45px;
   background:#0f1b24;
   justify-content:space-around;
   align-items:center;
+  border-right: none;
+  border-top: 1px solid #6c7a89;
+  margin-right: -11px;
 }
 
 .mobile .item{

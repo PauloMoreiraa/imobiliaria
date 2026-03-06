@@ -221,8 +221,9 @@ const emailErro = computed(() => email.value && !emailValido.value ? "Email inv√
   }
   .formulario input,
   .formulario textarea {
-    font-size: 1.3rem;
+    font-size: 1rem;
     width: 100%;
+	padding: 6px;
   }
   form{
     width: 100%;
@@ -232,6 +233,16 @@ const emailErro = computed(() => email.value && !emailValido.value ? "Email inv√
   }
   .subtitulo {
     font-size: 20px;
+  }
+
+  .icone-badge{
+	width: 15px;
+	height: 15px;
+  }
+
+  .icone{
+	width: 10px;
+	height: 10px;
   }
 }
 </style>
