@@ -28,4 +28,4 @@ Este é um projeto de demonstração de uma **imobiliária fictícia**, desenvol
 
 ## Link da aplicação 🌐
 
-Acesse a aplicação online: [Clicando aqui](https://imobiliaria.vercel.app)
+Acesse a aplicação online: [Clicando aqui](https://imobiliariacanarywharf.vercel.app/)
